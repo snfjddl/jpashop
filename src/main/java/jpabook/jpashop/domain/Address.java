@@ -9,7 +9,8 @@ import javax.persistence.Embeddable;
 
 @Embeddable
 @Getter @Setter
-//@AllArgsConstructor
+@AllArgsConstructor
+@NoArgsConstructor
 public class Address {
 
     private String city;
